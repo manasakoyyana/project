@@ -1,0 +1,37 @@
+git and git hub differences
+Git is an open-source, locally-installed version control system (VCS), while GitHub is a web-based cloud platform that hosts Git repositories and provides additional collaboration and project management features 
+git
+*local server
+*offline working
+git hub
+*remote server
+*online working
+
+next to push your files in git hub 
+first save it in git 
+install git them check version in cmd "git --version"
+then go to your folder(file manager) then cmd 
+commands
+*git init 
+it creates space 
+*git add . 
+adds all files if u want to add only specific file the "git add index.html"
+*git commit -m "any name about project"
+then it give 2 outputs
+create mode..then files are added
+if not then enter two commands :
+*git config --global user.email "manasa.1378@gmail.com"
+*git config --global user.name "manasakoyyana"
+again give the git commit -m"any name about project"
+its done.......
+then open your GitHub create create repository then in cmd continue to give 
+*git remote add origin https://github.com/manasakoyyana/project.git
+*git branch
+o/p:*master
+*git branch -M master
+*git push -u origin master
+successfully files will add or sign in to GitHub then authorize gitecosystem(button click on it then files will add automatically) 
+
+if u want to live the website
+then in git hub -> repository -> settings -> pages -> in branch give none(master) - > save...next in custom domain give the name->save ....next it will visible "visit site" if not then give another custom domain name until it gives "visit site"
+
